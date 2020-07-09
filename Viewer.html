@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<style>
+#container{
+    position: relative;
+}
+#main_image{
+    width: 100%;
+    height: 100%;
+}
+#map_pin1{
+    position: absolute;
+	   top: 1520px;
+	   left: 867px;
+   opacity: 0.9;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+    <div id="main_image"><img src="map2.jpg" alt="map1" usemap='#image-map'></div>
+    <div id="map_pin1"><img src="map_pin.png" title="Rensturnum" href="Rensturnum.html" width=25% ></div>
+</div>
+
+<map name="image-map">
+  <area target="" alt="Rensturnum" title="Rensturnum" href="Rensturnum.html" coords="840,1490,920,1620" shape="rect">
+</map>
+
+</body>
+</html>
+
+<!-- Helpful References
+http://www.corelangs.com/css/box/ontop.html
+https://stackoverflow.com/questions/5130374/positioning-and-overlaying-image-on-another-image
+-->
